@@ -1,2 +1,2 @@
 # hails.Code-Snippets
-Various things.
+Various things, see commenting in files for more info.
