@@ -1,3 +1,5 @@
+# run this to add the file to autorun on each cmd launch: reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun /d "doskey /macrofile=\"C:\PATH\TO\YOUR\cmd_aliases.doskey\"" /t REG_SZ /f
+
 clear=cls
 ls=dir $*
 ll=dir $*
