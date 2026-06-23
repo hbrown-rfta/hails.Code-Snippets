@@ -1,4 +1,15 @@
-# run this to add the file to autorun on each cmd launch: reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun /d "doskey /macrofile=\"C:\PATH\TO\YOUR\cmd_aliases.doskey\"" /t REG_SZ /f
+# ============================================
+# cmd_aliases.doskey
+# ============================================
+# Maps common Linux commands to CMD equivalents.
+# Loaded automatically via the Command Processor
+# AutoRun registry key (see README for setup).
+#
+# Format: each macro is MacroName EQUALS Definition.
+# $* passes through any arguments you type.
+#
+# To reload after editing: open a fresh CMD window.
+# ============================================
 
 clear=cls
 ls=dir $*
