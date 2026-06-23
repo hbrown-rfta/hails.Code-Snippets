@@ -1,0 +1,17 @@
+clear=cls
+ls=dir $*
+ll=dir $*
+cat=type $*
+cp=copy $*
+mv=move $*
+rm=del $*
+grep=findstr $*
+which=where $*
+man=help $*
+pwd=cd
+ps=tasklist
+kill=taskkill $*
+ifconfig=ipconfig $*
+env=set
+history=doskey /history
+touch=type nul > $1
