@@ -1,16 +1,3 @@
-##############################################
-# cmd_aliases.doskey
-##############################################
-# Maps common Linux commands to CMD equivalents.
-# Loaded automatically via the Command Processor
-# AutoRun registry key (see README for setup).
-#
-# Format: each macro is name then definition.
-# $* passes through any arguments you type.
-#
-# To reload after editing: open a fresh CMD window.
-##############################################
-
 clear=cls
 ls=dir $*
 ll=dir $*
