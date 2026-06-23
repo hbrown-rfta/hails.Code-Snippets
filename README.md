@@ -30,7 +30,7 @@ A set of doskey macros that map common Linux commands to their CMD equivalents, 
 To load the aliases automatically in every CMD window, register the file via the Command Processor AutoRun key:
 
 ```cmd
-reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun /d "doskey /macrofile=\"C:\Users\hbrown\OneDrive - rfta.com\Documents\Scripts\CMD\cmd_aliases.doskey\"" /t REG_SZ /f
+reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun /d "doskey /macrofile=\"C:\PATH\TO\YOUR\cmd_aliases.doskey\"" /t REG_SZ /f
 ```
 
 A few details that matter:
